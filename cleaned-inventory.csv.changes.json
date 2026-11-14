@@ -1,0 +1,19 @@
+{
+  "input_rows": 4,
+  "output_rows": 3,
+  "trim_columns": [
+    "product"
+  ],
+  "drop_exact": true,
+  "changes": [
+    {
+      "source_line": 2,
+      "column": "product",
+      "action": "trim"
+    },
+    {
+      "source_line": 4,
+      "action": "drop_exact_after_trim"
+    }
+  ]
+}
